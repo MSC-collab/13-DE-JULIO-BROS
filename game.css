@@ -1,0 +1,71 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px; /* Espacio entre el panel de texto y el juego */
+  font-family: monospace;
+}
+
+canvas {
+  display: block;
+  height: 95vh;
+  width: auto;
+  image-rendering: pixelated;
+  border: 4px solid #333;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+/* Estilo retro para el panel de texto lateral */
+.panel-texto {
+  color: #fff;
+  background-color: #111;
+  border: 3px solid #ffcc00;
+  border-radius: 8px;
+  padding: 20px;
+  width: 220px;
+  box-shadow: 0 0 15px rgba(255, 204, 0, 0.2);
+}
+
+.panel-texto h2 {
+  margin-top: 0;
+  color: #ffcc00;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.panel-texto h3 {
+  color: #00ffcc;
+  font-size: 14px;
+  margin-bottom: 8px;
+  border-bottom: 1px dashed #444;
+  padding-bottom: 4px;
+}
+
+.panel-texto p {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #ddd;
+}
+
+.creador {
+  background-color: #222;
+  padding: 8px;
+  border-left: 3px solid #00ffcc;
+  font-size: 13px !important;
+  color: #00ffcc !important;
+  margin: 12px 0 !important;
+}
+
+.separador {
+  border: 0;
+  height: 1px;
+  background: #444;
+  margin: 15px 0;
+}
